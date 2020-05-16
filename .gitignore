@@ -58,3 +58,12 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+.idea/.gitignore
+.idea/.idea.casual-shooter-ecs/riderModule.iml
+.idea/.idea.casual-shooter-ecs/.idea/.gitignore
+.idea/.idea.casual-shooter-ecs/.idea/contentModel.xml
+.idea/.idea.casual-shooter-ecs/.idea/encodings.xml
+.idea/.idea.casual-shooter-ecs/.idea/indexLayout.xml
+.idea/.idea.casual-shooter-ecs/.idea/modules.xml
+.idea/.idea.casual-shooter-ecs/.idea/projectSettingsUpdater.xml
+.idea/.idea.casual-shooter-ecs/.idea/vcs.xml
