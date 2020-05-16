@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbc2df80b5cf14f9fb63fc02ff8a6501, type: 3}
   m_Name: "\u0421haracterPrefabDatabase"
   m_EditorClassIdentifier: 
-  characterPrefabVo: []
+  characterPrefabVo:
+  - characterType: Stive
+    view: {fileID: 4091221194796574328, guid: bda1d69d1b2cf42e98991905801e52f3, type: 3}
