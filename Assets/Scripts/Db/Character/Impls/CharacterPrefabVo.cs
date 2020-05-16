@@ -7,13 +7,13 @@ namespace Db.Character.Impls
     [Serializable]
     public class CharacterPrefabVo
     {
-        [SerializeField] private ECharacterType type;
+        [SerializeField] private string characterType;
         [SerializeField] private CharacterView view;
 
-        public ECharacterType Type
+        public string AttackType
         {
-            get => type;
-            set => type = value;
+            get => characterType;
+            set => characterType = value;
         }
 
 

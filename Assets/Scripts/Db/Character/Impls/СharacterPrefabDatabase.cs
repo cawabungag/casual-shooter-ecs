@@ -8,20 +8,22 @@ namespace Db.Character.Impls
     [CreateAssetMenu(fileName = "СharacterPrefabDatabase", menuName = "Databases/СharacterPrefabDatabase")]
     public class СharacterPrefabDatabase : ScriptableObject, ICharacterPrefabDatabase
     {
-        [KeyValue("type")] [SerializeField] private CharacterPrefabVo[] characterPrefabVo;
+        [KeyValue("characterType")] [SerializeField]
+        private CharacterPrefabVo[] characterPrefabVo;
 
-        public CharacterView GetCharacterView(ECharacterType type)
+        public CharacterView GetCharacterView(string characterType)
         {
             for (int i = 0; i < characterPrefabVo.Length; i++)
             {
                 var characterView = characterPrefabVo[i];
-                if (characterView.Type == type)
+                if (characterView.AttackType == characterType)
                 {
                     return characterView.View;
                 }
             }
 
-            throw new Exception($"[{nameof(СharacterPrefabDatabase)}] No character prefab with type {type}");
+            throw new Exception(
+                $"[{nameof(СharacterPrefabDatabase)}] No character prefab with characterType {characterType}");
         }
     }
 }

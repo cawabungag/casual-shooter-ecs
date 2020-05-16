@@ -4,6 +4,6 @@ namespace Db.Character
 {
     public interface ICharacterPrefabDatabase
     {
-        CharacterView GetCharacterView(ECharacterType type);
+        CharacterView GetCharacterView(string characterType);
     }
 }

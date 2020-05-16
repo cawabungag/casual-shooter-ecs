@@ -1,6 +1,6 @@
 namespace Db.Character
 {
-    public enum ECharacterType
+    public enum ECharacterAttackType
     {
         Shoot,
         Lighting
